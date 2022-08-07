@@ -1,0 +1,27 @@
+.contenedor {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.caja-numero {
+    min-width: 200px;
+    height: 110px;
+    background-color: #ccc;
+    border-radius: 12px;
+    font-size: 3.4rem;
+    text-align: center;
+    line-height: 110px;
+}
+
+.caja-elementos {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
