@@ -25,3 +25,10 @@
     align-items: center;
     gap: 0.5rem;
 }
+
+
+@media (max-width: 800px) {
+    .caja-elementos {
+        flex-direction: column;
+    }
+}
