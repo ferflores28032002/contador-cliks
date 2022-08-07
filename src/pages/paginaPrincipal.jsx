@@ -11,7 +11,11 @@ const PaginaPrincipal = () => {
         setNumero(numero + 1);
     }
     const Disminuir = () => {
-        setNumero(numero - 1);
+        if(numero <= 0){
+            setNumero(0)
+        }else{
+            setNumero(numero - 1);
+        }
     }
     const Inicializar = () => {
         setNumero(0);
